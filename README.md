@@ -4,7 +4,7 @@
 <p align="center" width="400">
 
 
-<img width="400" src="(https://github.com/user-attachments/assets/1b2534a7-d064-4d40-a3f0-066e0bf32685">
+<img width="400" src="https://github.com/user-attachments/assets/1b2534a7-d064-4d40-a3f0-066e0bf32685">
 </p>
 
 <h2 align="center">Asignaturas que se van a ver en este repositorio.</h2>

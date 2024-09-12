@@ -15,9 +15,8 @@
 - Programación.
 - Sistemas informáticos.
 - Bases de Datos.
-- Bloque de formación inicial.
 - Lenguajes de marcas y sistemas de gestión de información.
-
+- Entornos de Desarrollo.
 </p>
 
 ***

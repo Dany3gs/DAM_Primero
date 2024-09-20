@@ -1,0 +1,22 @@
+body 
+{font-family:verdana;}
+
+h1 
+{color:#333; font-size:20px; text-align: center;}
+
+h2
+{color:#666; font-size:16px;}
+
+p, li
+{color:#000; font-size:12px;}
+
+a 
+{color: #0D47A1; font-size: 12px;}
+
+dl {
+margin-top: 10px;
+text-align: left;
+}
+dt {
+    margin-top: 20px;
+}

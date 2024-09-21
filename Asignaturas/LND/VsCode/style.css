@@ -14,12 +14,6 @@ h1 {
 h2 {
     font-size: 30px;
     color:#000000; 
-    text-align: center;
-}
-
-h3 {
-    font-size: 30px;
-    color:#000000; 
     text-align: 30px;
 }
 
@@ -31,6 +25,12 @@ p {
     margin: 0 auto;
 }
 
+.texto {
+    font-size: 25px;
+    color:#000000; 
+    text-align: 30px;
+}
+
 ol {
     font-family: "Courier New", monospace;
     margin: 0 auto; 
@@ -38,6 +38,11 @@ ol {
     width: 30%;
     font-size: 20px;
 }
+
+ul {
+    font-size: 20px;
+}
+
 
 a {
     color: #0D47A1;    

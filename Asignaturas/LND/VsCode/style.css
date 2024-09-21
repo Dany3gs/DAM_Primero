@@ -1,14 +1,8 @@
 
-html, body {
-   
-    /*background: linear-gradient(to bottom, orange 0% ,lightblue 100% );*/
-    
-    margin-bottom: 30px; /* Ajusta este valor según el margen que desees */
+html, body {    
     padding: 0;
     flex: 1;
-    margin-right: 20px;
-    margin-left: 20px;
-  
+    margin: 0 20px 30px 20px;
 }
 
 h1 {
@@ -28,52 +22,36 @@ h3 {
     color:#000000; 
     text-align: 30px;
 }
+
 p {
-    font-style: arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color:#000;
     text-align: center;
     margin: 0 auto;
- 
 }
 
 ol {
     font-family: "Courier New", monospace;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin: 0 auto; 
     display: block; 
     width: 30%;
     font-size: 20px;
-    
-}
-
-li {
-    color:#000;
 }
 
 a {
     color: #0D47A1;    
     margin-bottom: 30px;
-    
-    
-}
-
-dl {
-    margin-top: 10px;
-    text-align: left;
-}
-
-dt {
-    margin-top: 20px;
 }
 
 img {
-   
     border-radius: 5%;
     border-style: double;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin: 0 auto; 
     display: block; 
     width: 30%;
 }
+
 .enlace {
     display: block;
     text-align: center;

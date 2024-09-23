@@ -1,0 +1,44 @@
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 8%;
+}
+
+article {
+    
+    flex: auto;
+    flex-direction: column;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 0px;
+    height: 450px;
+    width: 400px;
+}
+
+ .title{
+    font-size: 50px;
+}
+
+.Enlaces {
+    height: auto;
+    width: 450px;
+}
+
+ul {
+    color: blue;
+}
+
+ .volver {
+
+    margin-top: auto;
+}
+
+p {
+    margin-left: 10px;
+}
+
+hr {
+    margin-left: 10px;
+}

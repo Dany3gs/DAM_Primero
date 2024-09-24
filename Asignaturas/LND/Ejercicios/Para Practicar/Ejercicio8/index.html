@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <main>
+            <header>
+                <h1>FORMULARIO</h1>
+            </header>
+            <form >
+                <p>Escriba su nombre: <br>
+                    <input type="text" name="nombre" size="30" placeholder="Introduzca su nombre"></p>
+                <p>Escribe tus apellidos: <br>
+                    <input type="text" name="apellidos" size="40" placeholder="Introduzca su apellido"></p>
+                <p>Escribe tu edad: <br>
+                    <input type="text" name="edad" size="7"></p>   
+                <p>Introduzca su DNI: <br>
+                    <input type="text" name="dni" size="25"></p>
+                <p>Introduzca su Password: <br>
+                    <input type="text" name="password" size="13">
+                </p>
+                <p>Observaciones: <br>
+                    <textarea name="observaciones" rows="10" cols="40"></textarea>
+                </p>
+
+                <p>¿Qué medio de transporte prefiere? </p>
+                    <select name="transportes" size="5">
+                        <option value="0">...</option>
+                        <option value="1" tabindex="1">Coche</option>
+                        <option value="2" tabindex="2">Moto</option>
+                        <option value="3" tabindex="3">Avión</option>
+                        <option value="4" tabindex="4">Barco</option>
+                        <option value="5" tabindex="5">Tren</option>
+                        <option value="6" tabindex="6">Bicicleta</option>
+                    </select>
+
+                    <p>Indica tus jobbies:</p>
+                        <p><input type="checkbox">Deporte</p>
+                        <p><input type="checkbox">Música</p>
+                        <p><input type="checkbox">Cine</p>
+                    
+                    <p>Elija una optativa:</p>
+                        <p><input type="radio">Informática</p>
+                        <p><input type="radio">Gimnasia</p>
+                        <p><input type="radio">Filosofía</p>
+                        <p><input type="button" value="Enviar Datos"></p>
+
+                    <input type="button" value="Reseteo de Datos">
+                    <p><input type="button" value="Selecciona archivo"> Ninguno archivo selec.</p>
+
+                    <input type="button" value="cerrar ventana"> <input type="button" value="Mensaje de Saludo">
+
+                
+            </form>
+
+        
+        </main>
+    </body>
+</html>

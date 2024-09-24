@@ -1,0 +1,14 @@
+body {
+    padding: 5px;
+}
+
+main {
+    border: 5px solid black;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+}
+

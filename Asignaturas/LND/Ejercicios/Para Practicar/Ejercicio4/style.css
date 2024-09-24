@@ -6,6 +6,10 @@ body {
     margin-top: 8%;
 }
 
+h2{
+    text-align: center;
+}
+
 article {
     
     flex: auto;
@@ -17,7 +21,7 @@ article {
     width: 400px;
 }
 
- .title{
+.title{
     font-size: 50px;
 }
 
@@ -30,7 +34,7 @@ ul {
     color: blue;
 }
 
- .volver {
+.volver {
 
     margin-top: auto;
 }

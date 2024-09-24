@@ -14,7 +14,7 @@ h1 {
 h2 {
     font-size: 30px;
     color:#000000; 
-    text-align: 30px;
+    text-align: center;
 }
 
 p {
@@ -28,7 +28,7 @@ p {
 .texto {
     font-size: 25px;
     color:#000000; 
-    text-align: 30px;
+    text-align: justify;
 }
 
 ol {

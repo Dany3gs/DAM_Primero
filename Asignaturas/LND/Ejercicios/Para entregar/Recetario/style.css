@@ -2,7 +2,8 @@
 body {    
     padding: 0;
     flex: 1;
-    margin: 0 20px 30px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1 {
@@ -14,7 +15,6 @@ h1 {
 h2 {
     font-size: 30px;
     color:#000000; 
-    
 }
 
 p {
@@ -43,7 +43,6 @@ ul {
     font-size: 20px;
 }
 
-
 a {
     color: #0D47A1;    
     margin-bottom: 30px;
@@ -67,30 +66,42 @@ table {
     border: 2px solid black;
     margin: auto;
 }
+
 caption, td, th {
     border: 1px solid black;
 }
+
 .valor {
     text-align: right;
 }
+
 td {
     width: 150px;
     height: 20px;
 }
 
-form, .form{
-    border-radius: 20px;
+form {
     background-color: rgb(228, 166, 103);
-    margin-right: 10px;
+    border-radius: 20px;
     font-size: 20px;
+    background-size: auto;
+    border: 2px solid black;
+    width: 600px;
     margin: auto;
+}
 
+.form {
+    font-size: 20px;
 }
 
 small {
     font-size: 15px;
 }
 
-input {
-    margin: 0 auto;
+.entrada {
+    padding-inline: 10px;
+    background-color: rgb(228, 166, 103);
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 800px;
 }

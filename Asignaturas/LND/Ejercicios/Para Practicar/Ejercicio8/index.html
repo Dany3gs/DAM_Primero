@@ -22,11 +22,10 @@
                 <p>Introduzca su DNI: <br>
                     <input type="text" name="dni" size="25"></p>
                 <p>Introduzca su Password: <br>
-                    <input type="text" name="password" size="13">
-                </p>
+                    <input type="text" name="password" size="13"></p><br>
+                
                 <p>Observaciones: <br>
-                    <textarea name="observaciones" rows="10" cols="40"></textarea>
-                </p>
+                    <textarea name="observaciones" rows="10" cols="40"></textarea></p><br>
 
                 <p>¿Qué medio de transporte prefiere? </p>
                     <select name="transportes" size="5">
@@ -37,28 +36,48 @@
                         <option value="4" tabindex="4">Barco</option>
                         <option value="5" tabindex="5">Tren</option>
                         <option value="6" tabindex="6">Bicicleta</option>
-                    </select>
-
-                    <p>Indica tus jobbies:</p>
-                        <p><input type="checkbox">Deporte</p>
-                        <p><input type="checkbox">Música</p>
-                        <p><input type="checkbox">Cine</p>
+                    </select><br><br>    
                     
-                    <p>Elija una optativa:</p>
-                        <p><input type="radio">Informática</p>
-                        <p><input type="radio">Gimnasia</p>
-                        <p><input type="radio">Filosofía</p>
-                        <p><input type="button" value="Enviar Datos"></p>
+                <p>Indica tus jobbies:</p>
+                    <p><input type="checkbox">Deporte</p>
+                    <p><input type="checkbox">Música</p>
+                    <p><input type="checkbox">Cine</p><br>
+                
+                <p>Elija una optativa:</p>
+                    <p><input type="radio">Informática</p>
+                    <p><input type="radio">Gimnasia</p>
+                    <p><input type="radio">Filosofía</p>
+                    <p><input type="button" value="Enviar Datos"></p><br>
 
-                    <input type="button" value="Reseteo de Datos">
-                    <p><input type="button" value="Selecciona archivo"> Ninguno archivo selec.</p>
+                <p><input class="casillas" type="button" value="Reseteo de Datos"> <span class="error">Env</span></p>
+                
+                <p><input type="button" value="Selecciona archivo"> Ninguno archivo selec.</p><br>
 
-                    <input type="button" value="cerrar ventana"> <input type="button" value="Mensaje de Saludo">
+                <input type="button" value="cerrar ventana"> <input type="button" value="Mensaje de Saludo"><br><br>
 
                 
-            </form>
+                <div class="borde-con-texto">
+                    <span class="texto-del-borde">Nuestros Entrantes</span>
+                    <p><input type="checkbox">Ensalada</p>
+                    <p><input type="checkbox">Sopa</p>
+                    <p><input type="checkbox">Verduras</p>
+                    </div><br>
+                
+                <p>Escoja un procesador: <input type="text"></p><br>
+                <p>Introduzca su email <input type="text"></p><br>
 
-        
+                <p>¿Cuántas entradas desea adquirir?</p><br>
+                <input type="text" name="entradas" size="5">
+                <p>Fecha de ida: <input type="date"></p><br>
+                <p>Fecha de vuelta: <input type="date"> </p>
+                
+                <p>Entrega del procesador a domicilio a las: <input type="time" name="hora"></p>
+
+            </form><br>     
+               <footer>
+            <p><strong>C2022 1<sup>a</sup> ASIRT -Formulario</strong></p>
+        </footer>
         </main>
+        
     </body>
 </html>

@@ -18,11 +18,11 @@
                 <p>Escribe tus apellidos: <br>
                     <input type="text" name="apellidos" size="40" placeholder="Introduzca su apellido"></p>
                 <p>Escribe tu edad: <br>
-                    <input type="text" name="edad" size="7"></p>   
+                    <input type="number" name="edad" min="0" max="120"></p>   
                 <p>Introduzca su DNI: <br>
                     <input type="text" name="dni" size="25"></p>
                 <p>Introduzca su Password: <br>
-                    <input type="text" name="password" size="13"></p><br>
+                    <input type="password" name="password" size="13"></p><br>
                 
                 <p>Observaciones: <br>
                     <textarea name="observaciones" rows="10" cols="40"></textarea></p><br>
@@ -47,11 +47,12 @@
                     <p><input type="radio">Informática</p>
                     <p><input type="radio">Gimnasia</p>
                     <p><input type="radio">Filosofía</p>
-                    <p><input type="button" value="Enviar Datos"></p><br>
-
-                <p><input class="casillas" type="button" value="Reseteo de Datos"> <span class="error">Env</span></p>
+                    <p><input type="submit" value="Enviar Datos"></p><br> <!--Ojo no se usa button para el envio de datos-->
+                    <!--En caso de usar button hay que dar estil width="32" height="32" style="vertical-align: middle"-->
+                <p><input class="casillas" type="reset" value="Reseteo de Datos"> <span class="error">Env</span></p>
+                <!--el type reset reestablece los datos de toda la página-->
                 
-                <p><input type="button" value="Selecciona archivo"> Ninguno archivo selec.</p><br>
+                <p><input type="file" value="Selecciona archivo"></p><br>
 
                 <input type="button" value="cerrar ventana"> <input type="button" value="Mensaje de Saludo"><br><br>
 
@@ -64,10 +65,10 @@
                     </div><br>
                 
                 <p>Escoja un procesador: <input type="text"></p><br>
-                <p>Introduzca su email <input type="text"></p><br>
+                <p>Introduzca su email <input type="email"></p><br>
 
                 <p>¿Cuántas entradas desea adquirir?</p><br>
-                <input type="text" name="entradas" size="5">
+                <input type="number" name="entradas" min="1" max="10">
                 <p>Fecha de ida: <input type="date"></p><br>
                 <p>Fecha de vuelta: <input type="date"> </p>
                 

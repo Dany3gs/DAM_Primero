@@ -1,9 +1,18 @@
 
 body {    
+    font-family: Verdana;
     padding: 0;
     flex: 1;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img {
+    border-radius: 5%;
+    border-style: double;
+    margin: 0 auto; 
+    display: block; 
+    width: 30%;
 }
 
 h1 {
@@ -14,12 +23,22 @@ h1 {
 
 h2 {
     font-size: 30px;
-    color:#000000; 
+    color:#666; 
+    
+}
+
+.presentación {
+    text-align: center;
+}
+
+.entrada {
+    padding-inline: 10px;
+    width: 800px;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color:#000;
     text-align: center;
     margin: 0 auto;
@@ -48,40 +67,35 @@ a {
     margin-bottom: 30px;
 }
 
-img {
-    border-radius: 5%;
-    border-style: double;
-    margin: 0 auto; 
-    display: block; 
-    width: 30%;
-}
-
 .enlace {
     display: block;
     text-align: center;
     font-size: 20px;
 }
 
-table {
+table, .ingredientes {
     border: 2px solid black;
-    margin: auto;
-}
-
-caption, td, th {
-    border: 1px solid black;
+    margin-left: 20px;    
+    border-radius: 10px;
 }
 
 .valor {
     text-align: right;
 }
 
-td {
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
     width: 150px;
     height: 20px;
 }
 
 form {
-    background-color: rgb(228, 166, 103);
+   background: linear-gradient(
+    to right,
+    rgba(228, 122, 103, 0.8),
+    rgba(179, 107, 26, 0.548)
+   );
     border-radius: 20px;
     font-size: 20px;
     background-size: auto;
@@ -90,18 +104,14 @@ form {
     margin: auto;
 }
 
-.form {
+.text-form {
     font-size: 20px;
+
 }
 
 small {
     font-size: 15px;
 }
 
-.entrada {
-    padding-inline: 10px;
-    background-color: rgb(228, 166, 103);
-    border-radius: 15px;
-    border: 2px solid black;
-    width: 800px;
-}
+
+

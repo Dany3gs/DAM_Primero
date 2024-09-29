@@ -14,17 +14,38 @@
         </header><br>
 
         <p class="entrada">Una forma diferente y deliciosa de comer verduras 
-            que puedes hacer en solo siete pasos.</p>    
+            que puedes hacer en solo siete pasos.</p><br>    
 
             <h2>Ingredientes</h2>
 
-        <ul>
-            <li>Calabacín</li>
-            <li>Harina</li>
-            <li>2 huevos grandes</li>
-            <li>Cebolleta</li>
-            <li>Aceite</li>
-        </ul>
+        <table class="ingredientes">
+            <tbody>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                </tr>
+                <tr>
+                    <td>Calabacín</td>
+                    <td class="valor">2 grande</td>
+                </tr>
+                <tr>
+                    <td>Harina</td>
+                    <td class="valor">200gm</td>
+                </tr>
+                <tr>
+                    <td>Huevos</td>
+                    <td class="valor">3 medianos</td>
+                </tr>
+                <tr>
+                    <td>Cebolleta</td>
+                    <td class="valor">1 </td>
+                </tr>
+                <tr>
+                    <td>Aceite de oliva</td>
+                    <td class="valor">Dos cucharadas</td>
+                </tr>
+            </tbody>
+        </table>
 
         <h2>Preparación</h2>
 
@@ -41,7 +62,7 @@
             <li>Pon un poco de aceite en una sartén a fuego medio y fría las tortillas de calabacín entre 
                 dos y tres minutos por cada lado.</li>
             <li>Escurre para que suelten el resto de grasa y sirve, si te apetece con un poco de crema agria.</li>
-        </ul>
+        </ul><br>
 
         <table>
             <caption><strong>Información nutricional</strong></caption>
@@ -75,19 +96,24 @@
                         <td class="valor">2,5 g</td>
                     </tr>
                 </tbody>
-        </table><br>
+        </table><br><br>
 
-        <form><br>
-            <p class="form">Recibe de nuestro Recetario en tu correo <br>
+        <div>
+            <p>Si deseas más recetas de este estilo, podrás encontrar más <a href="https://www.bonviveur.es/recetas/tortillitas-de-calabacin">aquí</a></p><br>
+        </div>
+
+        <form ><br>
+            <p class="text-form">Te interesan este tipo de recetas?
+                Suscribete <br><br>
             <small>Te enviamos nuestra newsletter semanal preparada con pasión por nuestros editores</small><br>
-                <input type="text" name="nombre" size="30" placeholder="Introduzca su email"></p>
+                <input type="email" name="email" size="30" placeholder="Introduzca su email"></p>
             
-            <p><input type="button" value="Suscribirse"></p>
+            <p><input type="submit" value="Suscribirse"></p>
         
-            <p class="form">Si lo desea puede añadir observaciones de la receta <br>
+            <p class="text-form">Si lo desea puede añadir observaciones de la receta <br>
                 <textarea name="observaciones" rows="5" cols="20"></textarea></p> 
 
-            <p><input type="button" value="Enviar"></p>
+            <p><input type="submit" value="Enviar"></p><br>
     </form><br>
         <a href="../index.html" class="enlace">Volver a inicio</a>
     </body>

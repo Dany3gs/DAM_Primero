@@ -10,7 +10,7 @@ h2{
     text-align: center;
 }
 
-article {
+nav {
     
     flex: auto;
     flex-direction: column;
@@ -23,11 +23,6 @@ article {
 
 .title{
     font-size: 50px;
-}
-
-.Enlaces {
-    height: auto;
-    width: 450px;
 }
 
 ul {

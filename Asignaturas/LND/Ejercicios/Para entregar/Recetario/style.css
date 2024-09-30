@@ -91,11 +91,11 @@ td, th {
 }
 
 form {
-   background: linear-gradient(
+    background: linear-gradient(
     to right,
     rgba(228, 122, 103, 0.8),
     rgba(179, 107, 26, 0.548)
-   );
+);
     border-radius: 20px;
     font-size: 20px;
     background-size: auto;
@@ -111,6 +111,12 @@ form {
 
 small {
     font-size: 15px;
+}
+
+footer, .firma {
+    float: right;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
 

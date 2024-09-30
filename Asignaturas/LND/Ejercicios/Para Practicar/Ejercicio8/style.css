@@ -18,8 +18,7 @@ main {
 
 .error {
     border: 2px solid rgb(194, 191, 191);
-    border-bottom: 2px;
-       
+    border-bottom: 2px;      
 }
 
 .casillas {
@@ -43,7 +42,7 @@ select {
 }
 
 .texto-del-borde {
- 
+
     position: absolute;
     top: -10px;
     left: 15px;

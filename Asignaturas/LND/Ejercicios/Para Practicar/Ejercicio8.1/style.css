@@ -1,33 +1,41 @@
 body {
-    background-color: rgb(160, 177, 160);   
+    
     box-sizing: border-box;
     border: 5px solid black;
     padding: 0;
-    margin: 20px 50px 50px 50px;
+    margin: 50px;
     text-align: center;
 
+   
+
 }
-main {
-    background-color: rgb(160, 177, 160);
-    padding: 0;
-    flex: 1;
+main, header , footer{
+    background-color: rgb(184, 180, 160);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 table {
-
+    font-size: 10px;
     margin-left: 40px;
     margin-bottom: 40px;
-    width: 500px;;
+    width: 700px;;
     height: 40px;
     background-color: green;
-    
+    border-collapse: separate;
+    border-spacing: 5px;
+    border: 2px solid rgb(208, 212, 208);
 }
 
 td, th {
     
-    padding: 10px;
+    padding: 15px;
     background-color: green;
-    border: 2px solid rgb(204, 206, 204) 
+    border: 1px solid rgb(206, 209, 206);
+    
+     
 }
 
 h1 {
@@ -35,5 +43,6 @@ h1 {
 }
 
 .celda5{
-    background-color: rgb(101, 26, 170);
+    background-color: rgb(119, 27, 161);
 }
+

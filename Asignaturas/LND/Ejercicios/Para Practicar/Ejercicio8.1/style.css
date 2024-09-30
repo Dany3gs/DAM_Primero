@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(160, 177, 160);   
+    box-sizing: border-box;
+    border: 5px solid black;
+    padding: 0;
+    margin: 20px 50px 50px 50px;
+    text-align: center;
+
+}
+main {
+    background-color: rgb(160, 177, 160);
+    padding: 0;
+    flex: 1;
+}
+
+table {
+
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 500px;;
+    height: 40px;
+    background-color: green;
+    
+}
+
+td, th {
+    
+    padding: 10px;
+    background-color: green;
+    border: 2px solid rgb(204, 206, 204) 
+}
+
+h1 {
+    margin-top: 3px;
+}
+
+.celda5{
+    background-color: rgb(101, 26, 170);
+}

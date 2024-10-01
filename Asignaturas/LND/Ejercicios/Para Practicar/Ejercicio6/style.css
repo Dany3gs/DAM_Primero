@@ -12,6 +12,8 @@ main {
 
 img {
     width: 50%;
+    box-shadow: 0px 0px 12px grey; /*borde sombreado*/
+
 }
 
 hr {

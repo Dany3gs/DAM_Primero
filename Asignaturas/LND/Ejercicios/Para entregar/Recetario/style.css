@@ -13,6 +13,7 @@ img {
     margin: 0 auto; 
     display: block; 
     width: 30%;
+    box-shadow: 0px 0px 12px grey;
 }
 
 h1 {
@@ -77,6 +78,7 @@ table, .ingredientes {
     border: 2px solid black;
     margin-left: 20px;    
     border-radius: 10px;
+    box-shadow: 0px 0px 12px gray;
 }
 
 .valor {
@@ -96,6 +98,7 @@ form {
     rgba(228, 122, 103, 0.8),
     rgba(179, 107, 26, 0.548)
 );
+    box-shadow: 0px 0px 20px gray;
     border-radius: 20px;
     font-size: 20px;
     background-size: auto;

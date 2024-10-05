@@ -5,19 +5,13 @@ body {
   }
   
   /* Todos los parrafos de la pagina */
-p  {
-    color: #555;
-  }
+p  {color: #555;}
   
   /* Todos los párrafos contenidos en #primero */
-#primero p {
-    color: #369;
-  }
+#primero p {color: #369;}
   
   /* Todos los enlaces la pagina */
-a  {
-    color: #C30;
-  }
+a  {color: #C30;}
   
   /* Los elementos <em> contenidos en #primero */
 #primero em  {
@@ -32,6 +26,4 @@ a  {
   }
   
   /* Todos los elementos <span> contenidos en la clase "normal" */
-.normal span  {
-    font-weight: bold;
-  }
+.normal span  {font-weight: bold;}

@@ -6,9 +6,7 @@ body {
     margin-top: 8%;
 }
 
-h2{
-    text-align: center;
-}
+h2{text-align: center;}
 
 nav {
     
@@ -21,23 +19,8 @@ nav {
     width: 400px;
 }
 
-.title{
-    font-size: 50px;
-}
-
-ul {
-    color: blue;
-}
-
-.volver {
-
-    margin-top: auto;
-}
-
-p {
-    margin-left: 10px;
-}
-
-hr {
-    margin-left: 10px;
-}
+.title{font-size: 50px;}
+ul {color: blue;}
+.volver {margin-top: auto;}
+p {margin-left: 10px;}
+hr {margin-left: 10px;}

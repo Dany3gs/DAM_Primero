@@ -10,7 +10,6 @@ main {
     margin: 100px;
     text-align: center;
     width: 400px;
-    align-items: l;
     background-color: rgb(152, 78, 236); 
 }
 
@@ -19,9 +18,9 @@ main {
     border-radius: 70px;
     width: 400px;
     height: 100px;
+    margin-top: 0;
     
 }
 
-form {
-    text-align: left;
-}
+form {text-align: left;}
+.comentario{margin-bottom: 0;}

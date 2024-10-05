@@ -9,14 +9,6 @@ p {
     color: blue;
 }
 
-.red {
-    color: red;
-}
-
-.right {
-    text-align: right;
-}
-
- .background {
-    background: silver;
-}
+.red {color: red;}
+.right {text-align: right;}
+.background {background: silver;}

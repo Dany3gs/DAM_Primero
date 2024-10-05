@@ -22,16 +22,12 @@ article {
     margin-right: 50px;
     margin-top: 20px;
 }
-a:link { 
-    color:red; 
-}
-a:visited { 
-    color:purple; 
-}
+
 a:hover { 
     color:green;
     text-decoration:none; 
 }
-a:active { 
-    color:lime; 
-} 
+
+a:link {color:red;}
+a:visited {color:purple;}
+a:active {color:lime;} 

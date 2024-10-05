@@ -4,9 +4,7 @@ body {
     font-size: 15px;
 }
 
-h1 {
-    text-align: center;
-}
+h1 {text-align: center;}
 
 main {
     border: 5px solid black;
@@ -15,24 +13,19 @@ main {
     margin: 0px;
 }
 
-
 .error {
     border: 2px solid rgb(194, 191, 191);
     border-bottom: 2px;      
 }
 
-.casillas {
-    margin: 5px 0px;
-}
+.casillas {margin: 5px 0px;}
 
 p {
     padding: 0;
     margin: auto;
 }
 
-select {
-    margin: 0px;
-}
+select {margin: 0px;}
 
 .borde-con-texto {
     border: 2px solid #000;

@@ -1,4 +1,4 @@
-html {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -6,11 +6,10 @@ html {
 }
 
 body {
-    border: 8px solid black; /* Ajusta el grosor y el color del borde */
+    border: 8px solid black; 
     height: 70%;
     margin: 10px;
     margin-right: 40%; 
-    padding: 0;
 }
 
 table, td {
@@ -24,43 +23,13 @@ td {
     font-weight: bold;
 }
 
-.red {
-    background-color: red;
-    
-}
-
-.green {
-    background-color: green;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.colorTextGreen {
-    color: green;
-}
-
-.colorTextRed {
-    color: red;
-}
-
-.colorTextBlue {
-    color: blue;
-}
-
-.colorTextOrange {
-    color: orange;
-}
-
-.colorTextPurple {
-    color: purple;
-}
-
-.colorTextOlive {
-    color: olive;
-}
-
-.colorTextFuchsia {
-    color: fuchsia;
-}
+.red {background-color: red;}
+.green {background-color: green;}
+.blue {background-color: blue;}
+.colorTextGreen {color: green;}
+.colorTextRed {color: red;}
+.colorTextBlue {color: blue;}
+.colorTextOrange {color: orange;}
+.colorTextPurple {color: purple;}
+.colorTextOlive {color: olive;}
+.colorTextFuchsia {color: fuchsia;}

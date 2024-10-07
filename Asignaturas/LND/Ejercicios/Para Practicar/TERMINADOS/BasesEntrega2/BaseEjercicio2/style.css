@@ -1,0 +1,20 @@
+
+/*Para cambiar los estilos de los li se usa 
+el atributo list-style según deseemos*/
+.noElementos {
+    list-style: none;
+}
+
+.circulos {
+    list-style: circle;
+}
+
+.cuadrados {
+    list-style: square;
+}
+.romanos {
+    list-style: lower-roman;
+}
+.griegos {
+    list-style: lower-greek;
+}

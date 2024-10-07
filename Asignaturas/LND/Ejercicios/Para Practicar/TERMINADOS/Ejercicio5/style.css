@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    margin-top: 10%;
+    display: grid;
+    place-items: center;
+    
+}
+
+article {
+    background-color: yellow;
+    font-size: 25px;
+    border: 7px solid black;
+    height: 300px;
+    width: 540px;
+
+}
+
+ .title{
+    font-size: 40px;
+    color: orange;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+a:hover { 
+    color:green;
+    text-decoration:none; 
+}
+
+a:link {color:red;}
+a:visited {color:purple;}
+a:active {color:lime;} 

@@ -1,0 +1,14 @@
+body {
+    font-family: Verdana;
+    background: aqua;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    color: blue;
+}
+
+.red {color: red;}
+.right {text-align: right;}
+.background {background: silver;}

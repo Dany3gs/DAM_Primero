@@ -1,0 +1,39 @@
+
+
+
+/*Cuando un enlace está activo, se muestra de color naranja*/
+a:active {
+    background-color: white;
+    color: orange;
+}
+
+/*Cuando un enlace ha sido visitado, se muestra de color verde oscuro*/
+a:visited {
+    background-color: white;   
+    color: green;
+}
+
+/* Con :hover
+Cuando el usuario sitúa el cursor del ratón sobre un enlace,
+ se invierten los colores (el texto del enlace se muestra con 
+ color blanco sobre un fondo rojo) y se muestra el subrayado.
+*/
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+/*En su estado normal, un enlace se muestra de color rojo y
+ sin subrayado (propiedad textdecoraƟon).
+*/
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/*Cuando un enlace tiene el foco del teclado, se muestra de color 
+azul y se muestra el subrayado.
+*/
+a:focus {
+    color: blue;
+}

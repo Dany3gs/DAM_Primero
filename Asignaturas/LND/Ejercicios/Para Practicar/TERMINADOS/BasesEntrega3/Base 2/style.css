@@ -1,0 +1,21 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+h1 {
+    border: 2px solid #00f;
+}
+
+h2 {
+    border: 2px solid #aaa;
+}
+
+ul {
+    border: 2px solid #0f0;
+}

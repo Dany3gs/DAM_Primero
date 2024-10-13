@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  html {
     height: 100%;
     width: 100%;
@@ -8,6 +9,154 @@
     background-color: azure;
     height: 100%;
     margin: 10px;
+=======
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+header, nav {
+    display: flex; 
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10;
+}
+
+img {
+    box-shadow: 2px 1px 7px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1;
+} 
+a:link {color: white;}
+a:visited {color:rgb(120, 188, 215);}
+a:active {color:rgb(252, 253, 253);} 
+
+.nav {
+    margin: 20px;
+    padding: 5px;
+}
+
+.main {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.texto-principal {
+    font-size: 20px;
+    text-align: justify;       /* Centra el texto dentro del contenedor */
+    margin-left: auto;        /* Margen automático a la izquierda */
+    margin-right: auto;       /* Margen automático a la derecha */
+    width: 80%;   
+}
+
+.section {
+    display: grid;             
+    place-items: center;       
+    height: auto;             
+    text-align: center; 
+    border: 2px solid black;
+}
+
+.article1, .article2 {
+    display: grid;             
+    place-items: center;       
+    height: 100px;             
+    text-align: center; 
+    border: 2px solid black;
+
+}
+
+.aside {
+    display: grid;             
+    place-items: center;       
+    height: 100px;             
+    text-align: center; 
+    border: 2px solid black;
+
+}
+
+.footer {
+    display: grid;             
+    place-items: center;       
+    height: 100px;             
+    text-align: center; 
+    border: 2px solid black;
+
+}
+
+.grid-container > * {
+    box-shadow: 4px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center; 
+}
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "section"
+    "article1"
+    "article2"
+    "aside"
+    "footer"
+    ;
+}
+
+.header {
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main;
+    padding: 20px;
+}
+
+.section {
+    grid-area: section;
+    display: grid;               
+    gap: 20px;
+    background-color: violet;
+    padding: 20px;
+    border: 3px solid palevioletred;
+    border-radius: 5px;  
+}
+
+.article1, .article2 {
+    background-color: red;
+    border: 3px solid rgb(193, 11, 11);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+>>>>>>> 2e6c0bd (creando proyecto con grid)
 }
 
 
@@ -31,6 +180,7 @@ nav {
 
 .container {
     display: flex;
+<<<<<<< HEAD
     flex-direction: row;
     flex-wrap: wrap;
     height: 60vh;
@@ -89,5 +239,30 @@ footer {
     box-shadow: 0px 0px 12px gray;
 } 
 
+=======
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: blue;
+    text-align: left;
+    padding: 10px;
+}
+
+.grid-container {
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+        "header header header" 
+        "nav    nav    nav" 
+        "main   main   aside" 
+        "section section section"
+        "footer footer footer";
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    } 
+>>>>>>> 2e6c0bd (creando proyecto con grid)
 
 

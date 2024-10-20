@@ -6,30 +6,35 @@ html, body {
 }
 
 body {
-    border: 8px solid black; 
+    border: 4px solid black; 
     height: 70%;
     margin: 10px;
     margin-right: 40%; 
 }
 
-table, td {
-    border: 2px solid black;
+table {
+    /* border: 1px solid black;  */
     padding: 2px;
-    margin: 15px;
+    margin: 15px;   
+    border: 2px outset;
 }
 
 td {
+    border: 2px inset;
+    border-color: black;
+    padding: 2px;
+    margin: 15px;  
     font-size: 20px;
-    font-weight: bold;
 }
 
 .red {background-color: red;}
 .green {background-color: green;}
 .blue {background-color: blue;}
-.colorTextGreen {color: green;}
+.colorTextTeal {color: rgb(0,128,128);}
 .colorTextRed {color: red;}
 .colorTextBlue {color: blue;}
 .colorTextOrange {color: orange;}
 .colorTextPurple {color: purple;}
 .colorTextOlive {color: olive;}
 .colorTextFuchsia {color: fuchsia;}
+.colorTextGreen {color: green;}

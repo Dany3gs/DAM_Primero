@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     justify-content: space-between; /* Esto asegura que el footer esté al final */
     margin: 30px;
+    bottom: 20px;
     background-color: black;
 }
 
@@ -22,6 +23,10 @@ h1 {
     border-radius: 10px;
     box-shadow: 1px 1px 12px rgb(224, 101, 48);
     font-size: 50px;
+}
+
+h2 {
+    color: rgb(224, 101, 48);
 }
 
 header {
@@ -64,6 +69,7 @@ img:hover {
     height: 60vh;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 nav {
@@ -71,27 +77,28 @@ nav {
     justify-content: center;
     width: 65%;
     height: 4vh;
-    background-color: rgba(224, 170, 126, 0.954);
+    background: rgb(67, 64, 63);
     align-items: center;
     margin: 2rem auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px rgb(224, 101, 48);;
+    box-shadow: 0px 0px 12px rgb(224, 101, 48);
     object-fit: cover;
     padding: 15px;
+    color: white;
 }
 
 a:link {color: rgb(10, 9, 8);}
-a:visited {color:rgb(16, 83, 146);}
+a:visited {color:rgb(238, 154, 76);}
 a:active {color:rgba(235, 92, 15, 0.968);}
 a {text-decoration: none;}
 
 main {
     max-width: 70%;
-    background-color: rgba(224, 170, 126, 0.954);
+    background-color: rgba(0, 0, 0, 0.954);
     padding: 15px;
     margin-left: 2rem;
     border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(224, 101, 48);
+    box-shadow: 1px 1px 12px rgb(224, 101, 48);
     text-align: center;
     font-size: 20px;
 }
@@ -99,43 +106,35 @@ main {
 .articulo-uno {
     flex-basis: 45%; /* Los artículos ocuparán el 45% del ancho disponible */
     margin: 20px;
-    background-color: rgb(216, 211, 195);
+    background-color: rgb(67, 64, 63);
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 1px 1px 12px rgb(224, 101, 48);;
+    box-shadow: 1px 1px 12px rgb(224, 101, 48);
     justify-content: center;
+    color: rgb(224, 101, 48);
 }
 
 .articulo-dos {
     flex-basis: 45%; /* Los artículos ocuparán el 45% del ancho disponible */
     margin: 20px;
-    background-color: rgb(216, 211, 195);
+    background-color: rgb(67, 64, 63);
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px rgb(224, 101, 48);;
+    box-shadow: 0px 0px 12px rgb(224, 101, 48);
+    color: rgb(224, 101, 48);
 }
 
 aside {
-    
     min-width: 15%;
     max-width: 25%;
-    background-color: rgba(224, 170, 126, 0.954);
+    background-color: rgb(67, 64, 63);
     padding: 5px;
     margin-left: 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(224, 101, 48);
+    box-shadow: 1px 1px 12px rgb(224, 101, 48);
+    color: rgb(224, 101, 48)
 }
-
-footer {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background-color: rgb(188, 105, 69);
-    margin-top: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 12px rgb(224, 101, 48);
-} 
 
 .empresa {
     position: absolute;
@@ -152,3 +151,46 @@ footer {
 ul {
     list-style-type: none;
 }
+
+.rutas {
+    display: block;
+    justify-content: space-between;
+    align-items:center;
+    width: 100rem;
+    height: 25rem;
+    background-color: rgb(67, 64, 63);
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgb(224, 101, 48);
+    text-align: center;
+    color: white;
+
+}
+
+table {
+    
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+    margin: 5px;
+}
+th, td {
+    padding: 8px;
+    width: 150px;
+    height: 20px;
+}
+
+footer {
+    position: relative;
+    width: 100rem;
+    height: 20rem;
+    background: url(images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgb(224, 101, 48);
+} 

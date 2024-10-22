@@ -1,5 +1,5 @@
 
- html, body {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -93,6 +93,7 @@ a:active {color:rgba(235, 92, 15, 0.968);}
 a {text-decoration: none;}
 
 main {
+    display: flex;
     max-width: 70%;
     background-color: rgba(0, 0, 0, 0.954);
     padding: 15px;
@@ -111,7 +112,7 @@ main {
     border-radius: 10px;
     box-shadow: 1px 1px 12px rgb(224, 101, 48);
     justify-content: center;
-    color: rgb(224, 101, 48);
+    color: white;
 }
 
 .articulo-dos {
@@ -121,19 +122,19 @@ main {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 12px rgb(224, 101, 48);
-    color: rgb(224, 101, 48);
+    color: white;
 }
 
 aside {
-    min-width: 15%;
-    max-width: 25%;
+    position: relative;
     background-color: rgb(67, 64, 63);
-    padding: 5px;
+    padding: 10px;
+    margin-top: 25px;
     margin-left: 20px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 12px rgb(224, 101, 48);
-    color: rgb(224, 101, 48)
+    color: white;
 }
 
 .empresa {
@@ -153,7 +154,9 @@ ul {
 }
 
 .rutas {
-    display: block;
+    position: relative;
+    width: 100rem;
+    height: 20rem;
     justify-content: space-between;
     align-items:center;
     width: 100rem;

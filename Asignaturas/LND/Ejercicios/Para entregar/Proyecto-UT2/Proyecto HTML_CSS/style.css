@@ -1,18 +1,16 @@
 
-html, body {
+html {
     height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body{
     display: flex;
     flex-direction: column;
+    height: auto;
     justify-content: space-between; /* Esto asegura que el footer esté al final */
     margin: 30px;
-    bottom: 20px;
     background-color: black;
+    /*TODO border: 4px solid white; ver por que no coge el alto de la página*/
 }
 
 h1 {
@@ -97,7 +95,7 @@ main {
     max-width: 70%;
     background-color: rgba(0, 0, 0, 0.954);
     padding: 15px;
-    margin-left: 2rem;
+    margin-left: 1rem;
     border-radius: 10px;
     box-shadow: 1px 1px 12px rgb(224, 101, 48);
     text-align: center;
@@ -127,10 +125,9 @@ main {
 
 aside {
     position: relative;
+    margin-left: 30px;
     background-color: rgb(67, 64, 63);
     padding: 10px;
-    margin-top: 25px;
-    margin-left: 20px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 12px rgb(224, 101, 48);
@@ -194,6 +191,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 12px rgb(224, 101, 48);
 } 

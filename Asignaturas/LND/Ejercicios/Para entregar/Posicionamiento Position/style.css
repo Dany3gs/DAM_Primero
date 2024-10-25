@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+div {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.261);
+    border-radius: 5px;
+}
+
+.static, 
+.relative,
+.absolute,
+.fixed,
+.sticky {
+    padding: 1rem;
+}
+
+.parent {
+    background-color: #555555;
+}
+
+.static {
+    background-color: #dddddd;
+}
+
+.relative {
+    background-color: #81c476;
+}
+
+.absolute {
+    background-color: #fc9191;
+}
+
+.fixed {
+    background-color: #a8d5e2;
+}
+
+.sticky {
+    background-color: #e1e1ac;
+}
+
+/*Position*/
+
+.static {
+    position: static; /*este es por defecto*/
+}
+
+.relative {
+    /*no se mueve de su espacio, pero permite añadir 
+    posicion con top, bottom.... con longitud rem, em px... o %*/
+    position: relative; 
+    top: 10px; /*estas dos tienen prioridad sobre las otras*/
+    left: 10px; /*estas dos tienen prioridad sobre las otras*/
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    
+}
+
+.sticky {
+    
+}
+
+/*min 6;05*/

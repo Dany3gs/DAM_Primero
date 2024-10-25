@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+body {
+    
+    background: lightslategray;
+    text-align: center;
+}
+
+.caja {
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 20% auto 30%;
+    grid-template-rows: 100px 100px auto 20%;
+    grid-template-areas: "c1 c1 c1"
+                        "c2 c2 c2"
+                        "c3 c3 c4"
+                        "c5 c5 c5"
+    ;
+    border: 3px solid black;
+    padding: 4%;
+    background: rgb(201, 204, 47);
+    margin: 0 auto;
+}
+
+.c1 {
+    grid-area: c1;
+    background: lightcyan;
+}
+.c2 {
+    grid-area: c2;
+    background: lightcoral;
+}
+.c3 {
+    grid-area: c3;
+    background: lightgray;
+}
+.c4 {
+    grid-area: c4;
+    background: lightgreen;
+}
+.c5 {
+    grid-area: c5;
+    background: lightpink;
+} 
+

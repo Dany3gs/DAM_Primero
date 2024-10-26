@@ -3,8 +3,8 @@
     padding: 5px;
     border: 1px solid black;
 
-    display: flex; /*con esto activamos el modo flex, por defecto los poner de izq a dcha*/
-    /*flex-wrap: wrap; también tien opción reverse*/
+    display: flex; /*con esto activamos el modo flex, por defecto los pones de izq a dcha*/
+    /*flex-wrap: wrap; permite controlar la dirección en la cual serán apilados los elementos*/
     /*flex-direction: column; ordena por columna */
     /*flex-direction: column-reverse; invertimos el orden de 4 a 1*/
     /*flex-direction: row; ordenamos por fila*/
@@ -13,7 +13,7 @@
     /*Con solo flex-flow podemos hacer lo mismo, indicamos row o column y que wrap*/
     flex-flow: row wrap;
 
-    /*Para alinear los elemntos de izq a dch se usa justify-content segun queramos, si queremos espacio
+    /*Para alinear los elementos de izq a dch se usa justify-content según queramos, si queremos espacio
     entre las cajas, se usa space-between o space-around 
     justify-content: space-around;*/
 
@@ -36,7 +36,7 @@
     text-align: center;
     margin: 15px;
 
-    width: 150px; /*si indicamos un ancho de las cajas que no quepa en el contenerdo
+    width: 150px; /*si indicamos un ancho de las cajas que no quepa en el contenedor
                     no hace nada, pero si le indicamos a container un wrap, si acomoda
                     al espacio que necesite*/
 }

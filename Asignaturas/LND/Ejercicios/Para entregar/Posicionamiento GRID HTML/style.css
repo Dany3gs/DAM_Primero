@@ -70,10 +70,10 @@ body {
     "footer  footer"; */
 
     grid-template: 
-        "header  header" 100px
+        "header  header" 100px /*indicamos altura 100px*/
         "navbar  navbar"50px
         "sidebar main" auto
-        "footer  footer" 100px /
+        "footer  footer" 100px / /*con la / separamos la anchura de cada columna*/
         200px    auto;
 }
 }

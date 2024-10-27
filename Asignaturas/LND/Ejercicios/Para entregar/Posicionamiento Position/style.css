@@ -7,6 +7,7 @@ body {
     font-size: 2rem;
     font-family: sans-serif;
     background-color: black;
+    height: 300vh; /*vh viewport height, altura total de la página*/
 }
 
 h1 {
@@ -64,18 +65,51 @@ div {
     position: relative; 
     top: 10px; /*estas dos tienen prioridad sobre las otras*/
     left: 10px; /*estas dos tienen prioridad sobre las otras*/
+    z-index: 1; /*para indicar cual se ve más cercano*/
+}
+
+.parent {
+    position: relative;
+    margin: 20px;
 }
 
 .absolute {
+    /*Si indicamos dentro de un elemento que tenga posicioón relativa,
+      la clase que tiene posición absoluta, queda como flotando sobre esta
+      pudiendo colocar con limitación de marger donde queramos, ejemplo para
+      un boton de cierre o enviar que no influya con el resto del elemento
+      Indicar dos posiciones, top-rigth...etc o tamaño
+      */
     position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 .fixed {
-    
+     /*Es parecido a absolute pero queda como flotando sobre el elemento 
+       quedandose fijo en esa posición, ejemplo para barra de nav se vea 
+       aunque bajemos el scroll o boton que te sube desde la parte de abajo
+       de la web al principio
+       Indicar dos posiciones, top-rigth...etc o tamaño
+       si indicamos los dos lados, estira el elemento que del ancho limitado
+       */
+    position: fixed;
+    top: 50%;
+    left: 0;
+}
+
+.scroll {
+    overflow: scroll;
+    border: 2px solid red;
+    height: 250px;
 }
 
 .sticky {
-    
+    /*Con esta propiedad dejamos la clase fija dentro del siguiente ancestro
+      nos permite hacer scroll dentro del ancestro dejando a sticky en su lugar
+      hasta que sigamos hacia abajo el scroll
+      Ejemplo si queremos dejar visible un menu dentro de un container en scroll
+      */
+    position: sticky;
+    top: 0;
 }
-
-/*min 6;05*/

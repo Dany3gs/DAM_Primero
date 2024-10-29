@@ -14,24 +14,24 @@ body {
     justify-content: space-between; /* Esto asegura que el footer esté al final */
     padding: 0;
     background-color: black;
+
 }
 
 #container {
     height: 100%;
-    padding: 0;
+    padding: 40px;
 }
 
 h1 {
     color: rgb(224, 101, 48);
-    position: relative;
     text-align: center;
-    align-content: center;
-    top: 30px;
-    width: 75rem;
-    margin-left: 10%;
     border-radius: 10px;
     box-shadow: 1px 1px 12px rgb(224, 101, 48);
     font-size: 50px;
+    max-width: 90;
+    text-align: center;
+    top: 30px;
+    align-items: center;
 }
 
 h2 {
@@ -67,7 +67,6 @@ aside img:hover {
     opacity: 1; 
 }
 
-
 img {
     width: 225px; /* Ajusta el tamaño de las imágenes */
     height: 225px; /* Mantén una altura fija para mayor control */
@@ -82,9 +81,6 @@ img:hover {
     filter: contrast(120%);
     opacity: 1;
 }
-
-
-
 
 .menus {
     display: flex;

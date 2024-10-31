@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML_CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+        <h1>Descubre Gran Canaria en Moto</h1> 
+        <div id="container" class="grid-container">
+
+            <header class="caja c1" id="carrete">
+                <div class="carrete">
+                    <img src="./images/1.png" alt="carrete1">
+                    <img src="./images/3.png" alt="carrete1">
+                    <img src="./images/portada.png" alt="carrete1">
+                    <img src="./images/2.png" alt="carrete1">
+                    <img src="./images/4.png" alt="carrete1">
+                </div>
+            </header>
+
+            <div class="caja c2">
+                <nav class="menus">
+                    <form>
+                        <a href="https://www.tripadvisor.es/Restaurants-g187471-Gran_Canaria_Canary_Islands.html"><U>DONDE COMER</U></a>
+                        <a href="https://www.viviendodeviaje.com/donde-alojarse-en-gran-canaria/"><u>ALOJAMIENTOS</u></a>
+                        <a href="https://localguidegrancanaria.com/que-hacer-en-gran-canaria/#google_vignette"><u>QUE HACER</u></a>
+                        <a href="https://es.wikiloc.com/rutas/moto-trail/espana/canarias"><u>RUTAS Off Road</u></a>
+                        <a href="https://es.wikiloc.com/rutas/motociclismo/espana/canarias"><u>RUTAS On Road</u></a>
+                        <a href="https://www.canariasenmoto.com/index.php?pagina=empresa&ver=listado"><u>DONDE COMPRAR</u></a>
+                    </form>
+                </nav>
+            </div>
+
+            <div class="caja c3" >
+                <main id="cuerpo">  
+
+                    <section>
+                        <h2><u>Que mejor que conocer Gran Canaria en dos ruedas.</u></h2>
+
+                        <article class="in1" id="articulo-uno">  
+                            <h3><u>Off Road</u></h3>
+
+                            <p class="texto-principal">Existen infinidad de rutas en moto por Gran Canaria. De momento no hemos compartido muchas, 
+                            pero debes saber que hay más de 300 kilómetros de rutas off-road por los que se pueden circular. Dale un 
+                            vistazo a nuestro post sobre Gran Canaria en moto trail para más <a href="https://localguidegrancanaria.com/gran-canaria-en-moto-trail/">info</a>. 
+                            Por otro lado, la isla cuenta con 
+                            carreteras espectaculares como la que va desde la Presa del Parralillo hasta La Aldea de San Nicolás. Esta 
+                            carretera es conocida por los moteros y ciclistas como el Valle de Las Lágrimas.
+                            </p>
+                        </article>
+                        
+                        <article class="in2" id="articulo-dos" > 
+                            <h3><u>Asfalto</u></h3>
+                            
+                            <p>¡Descubre la libertad sobre dos ruedas en Gran Canaria! Conduce por impresionantes rutas de carretera que te llevarán desde la costa hasta 
+                                las montañas. Curvas emocionantes, paisajes volcánicos y vistas panorámicas únicas te esperan en cada kilómetro. Ya seas un motero experto 
+                                o un aventurero, nuestras rutas ofrecen el equilibrio perfecto entre adrenalina y belleza natural. Vive la experiencia de recorrer la isla 
+                                como nunca antes, ¡Gran Canaria te invita a rodar!
+                            </p>
+                        </article>
+                    </section> 
+                </main>
+            </div>
+
+            <div class="caja c4">
+                <aside >
+                    <p><u>Rutas OFF ROAD</u></p>
+                    <a href="https://es.wikiloc.com/rutas/todo-terreno/espana/canarias/las-palmas-de-gran-canaria"> <img src="images/tierra.png" alt="tierra"></a>
+
+                    <p><u>Rutas ASFALTO</u></p>
+                    <a href="https://villagrancanaria.com/es/blog/rutas-en-moto-por-gran-canaria/"> <img src="images/asfalto.jpg" alt="asfalto"></a>
+
+                    <div class="audio">
+                        <p><u>Nota informativa</u></p>
+                        <img src="images/altavoz.png" alt="altavoz" class="sonido" onclick="playSound()">
+
+                        <audio id="audio" src="rutasenmoto.mp3"></audio>
+                        
+                        <script>
+                            
+                            function playSound() {
+                                const audio = document.getElementById("audio");
+                                audio.play();
+                            }
+                        </script> 
+                        
+                        <p><u>Accede a nuestras fotos</u></p>
+                        <a href="portfolio.html" class="fotos"> <img src="images/camara.png" alt="camara"></a>
+                    </div>
+                </aside>
+            </div> 
+
+            <div class="caja c5">
+                <footer >
+
+                    
+                    <div class="empresa">
+                        <h3><u>Datos de la empresa</u></h3> 
+
+                        <ul>
+                            <li>Villa Grancanaria investiments S.L.</li>
+                            <li>C/swing Los Lagos, 9</li>
+                            <li>Salobre Golf</li>
+                            <li>35100 Maspalomas, Gran Canaria </li>
+                            <li>CIF: B76222699 </li>
+                        </ul>
+                        <a id="email" href="mailto:danielsergiomartinezmarco@alumno.ieselrincon.es">info@villagrancanaria.com</a>
+                        
+                    </div>
+
+                    <div class="contacto">
+                        <h3><u>Datos de contacto</u></h3><br>
+
+                        <ol>
+                            <li><a href="https://www.facebook.com/">FACEBOOK</a></li>
+                            <li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
+                            <li><a href="https://x.com/">X (TWITER)</a></li>
+                            <li><a href="https://www.linkedin.com/">LINKEDING</a></li>
+                        </ol>
+                    </div>
+                </footer>   
+            </div>
+        </div>
+    </body>
+</html>   
+

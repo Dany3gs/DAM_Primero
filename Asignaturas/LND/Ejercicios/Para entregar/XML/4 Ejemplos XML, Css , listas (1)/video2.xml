@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="video2.css"?>
+<ejemplolistas>
+    <titulo>Listas</titulo>
+    <lista>
+        <ejemplo1>Elemento 1</ejemplo1>
+        <ejemplo2>Elemento 2</ejemplo2>
+        <ejemplo3>Elemento 3</ejemplo3>
+    </lista>
+</ejemplolistas>

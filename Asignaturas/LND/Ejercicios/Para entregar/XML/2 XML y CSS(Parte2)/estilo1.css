@@ -1,0 +1,19 @@
+ciclo {
+    background-color: orange;
+}
+asignatura{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.color {
+    color: red;
+}
+#numero {
+    color: blue;
+}

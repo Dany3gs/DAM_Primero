@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilo1.css"?>
+<ciclo>
+    <asignatura>
+        <nombre class="color">Lenguaje de Marcas</nombre>
+        <horas>3</horas>
+        <profesor>Mónica</profesor>
+    </asignatura>
+    <asignatura>
+        <nombre>Base de datos</nombre>
+        <horas id="numero">6</horas>
+        <profesor>David</profesor>
+    </asignatura>
+</ciclo>

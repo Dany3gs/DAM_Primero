@@ -1,0 +1,14 @@
+ejemplo1, ejemplo2, ejemplo3 {
+    display: list-item;
+    list-style: disc;
+    margin-left: 50px;
+}
+
+ejemplolistas {
+    background-color: pink;
+}
+titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}

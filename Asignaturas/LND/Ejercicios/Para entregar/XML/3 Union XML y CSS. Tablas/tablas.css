@@ -1,0 +1,13 @@
+libros {
+    display: table;
+    border-spacing: 2px;
+    border: #876eff 4px solid;
+    margin: 10px;
+}
+titulo, autor, editorial, num_paginas {
+    display: table-row;
+    background-color: #fffead;
+    color: green;
+    padding: 2px;
+    text-align: center;
+}

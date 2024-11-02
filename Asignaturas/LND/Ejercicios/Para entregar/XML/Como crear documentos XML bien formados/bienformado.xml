@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+    <coche>
+        <nombre_de_coche color="rojo" velocidad="400km/h">KELSA</nombre_de_coche>
+        <marca>Ferrari</marca>
+        <año>2015</año>
+    </coche>
+    <coche>
+        <nombre_de_coche color="negro" velocidad="600km/h">PACO</nombre_de_coche>
+        <marca>Lambourgini</marca>
+        <año>2015</año>
+    </coche>
+    <coche>
+        <nombre_de_coche color="" velocidad="500km/h">ESTHER</nombre_de_coche>
+        <marca>Mercedes</marca>
+        <año>2012</año>
+    </coche>
+    <preferidos><![CDATA[KELSA & ESTHER]]></preferidos>
+    <preferido>&quot;KELSA&quot; &amp; &quot;ESTHER&quot;</preferido>
+</coches>

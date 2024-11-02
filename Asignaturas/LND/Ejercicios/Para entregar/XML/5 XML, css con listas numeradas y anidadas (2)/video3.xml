@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="video3.css"?>
+<colegio>
+    <listas>
+        <lista codigo="A1">
+            <id>Lista 1</id>
+            <elemento1>Lista 11</elemento1>
+            <elemento2>Lista 12</elemento2>
+        </lista>
+        <lista codigo="A2">
+            <id>Lista 2</id>
+            <elemento1>Lista 21</elemento1>
+            <elemento2>Lista 22</elemento2>
+        </lista>
+        <lista codigo="A3">
+            <id>Lista 3</id>
+            <elemento1>Lista 31</elemento1>
+            <elemento2>Lista 32</elemento2>
+        </lista>
+    </listas>
+</colegio>

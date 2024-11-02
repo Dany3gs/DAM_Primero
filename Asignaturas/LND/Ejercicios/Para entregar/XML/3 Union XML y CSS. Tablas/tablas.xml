@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tablas.css"?>
+<libros>
+    <libro>
+        <titulo>La reina roja</titulo>
+        <autor>Juan Gómez-Jurado</autor>
+        <editorial>Gale</editorial>
+        <num_paginas>648</num_paginas>
+    </libro>
+    <libro>
+        <titulo>La loba negra</titulo>
+        <autor>Juan Gómez-Jurado</autor>
+        <editorial>Gale</editorial>
+        <num_paginas>817</num_paginas>
+    </libro>
+</libros>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="proyecto.css"?>
+
+<biblioteca>
+    <autores>
+        <titulo>Autores Destacados</titulo>
+        <lista>
+            <autor id="1">
+                <nombre>Juan Gómez-Jurado</nombre>
+                <nacionalidad>Español</nacionalidad>
+                <nacimiento año="1977" />
+            </autor>
+            <autor id="2">
+                <nombre>Isabel Allende</nombre>
+                <nacionalidad>Chilena</nacionalidad>
+                <nacimiento año="1942" />
+            </autor>
+            <autor id="3">
+                <nombre>Gabriel García Márquez</nombre>
+                <nacionalidad>Colombiano</nacionalidad>
+                <nacimiento año="1927" />
+            </autor>
+        </lista>
+    </autores>
+
+    <libros>
+        <titulo>Tabla de Libros</titulo>
+        <tabla>
+            <libro>
+                <titulo>La Reina Roja</titulo>
+                <autor>Juan Gómez-Jurado</autor>
+                <editorial>Gale</editorial>
+                <paginas>648</paginas>
+                <publicacion año="2018" />
+            </libro>
+            <libro>
+                <titulo>La Casa de los Espíritus</titulo>
+                <autor>Isabel Allende</autor>
+                <editorial>Plaza y Janés</editorial>
+                <paginas>481</paginas>
+                <publicacion año="1982" />
+            </libro>
+            <libro>
+                <titulo>Cien Años de Soledad</titulo>
+                <autor>Gabriel García Márquez</autor>
+                <editorial>Sudamericana</editorial>
+                <paginas>471</paginas>
+                <publicacion año="1967" />
+            </libro>
+        </tabla>
+    </libros>
+
+    <editoriales>
+        <titulo>Información de Editoriales</titulo>
+        <lista>
+            <editorial id="Gale">
+                <nombre>Gale</nombre>
+                <pais>Estados Unidos</pais>
+                <fundacion año="1954" />
+            </editorial>
+            <editorial id="PlazaJanés">
+                <nombre>Plaza y Janés</nombre>
+                <pais>España</pais>
+                <fundacion año="1959" />
+            </editorial>
+            <editorial id="Sudamericana">
+                <nombre>Sudamericana</nombre>
+                <pais>Argentina</pais>
+                <fundacion año="1939" />
+            </editorial>
+        </lista>
+    </editoriales>
+</biblioteca>

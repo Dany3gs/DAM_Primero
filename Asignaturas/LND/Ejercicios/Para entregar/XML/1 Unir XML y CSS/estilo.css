@@ -1,0 +1,32 @@
+coches {
+    background-color: lightblue;
+    border: 6px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+
+fabricante{
+    display: block;
+    background-color: lightsalmon;
+    width: 300px;
+    margin-left: 35%;
+    padding: 10px;
+    border: 2px solid lightblue;
+} 
+
+modelos {
+    display: inline-block;
+}
+
+pais {
+    float: right;
+}
+
+modelo {
+    display: block;
+    font-size: 20px;
+}
+
+segmento {
+    display: none;
+}

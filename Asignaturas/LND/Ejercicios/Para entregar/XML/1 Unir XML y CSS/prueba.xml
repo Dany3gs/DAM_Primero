@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilo.css"?>
+<coches>
+    <fabricantes>
+        <fabricante id="Peugeot">
+            <fundador>Armand Peugeot</fundador>
+            <fundacion año="1982" />
+            <pais>Francia</pais>
+        </fabricante>
+        <fabricante id="Renault">
+            <fundador>Louis Renault</fundador>
+            <fundacion año="1899" />
+            <pais>Francia</pais>
+        </fabricante>
+        <fabricante id="Opel">
+            <fundador>Adam Opel</fundador>
+            <fundacion año="1862" />
+            <pais>Alemania</pais>
+        </fabricante>
+        <fabricante id="Volkswagen">
+            <fundador>Deutsche Arbeitsfront</fundador>
+            <fundacion año="1937" />
+            <pais>Alemania</pais>
+        </fabricante>
+    </fabricantes>
+
+    <modelos>
+        <modelo fabricante="Peugeot">
+            <nombre>Peugeot 308</nombre>
+            <segmento>C</segmento>
+            <inicio año="2007" />
+        </modelo>
+        <modelo fabricante="Opel">
+            <nombre>Opel Astra</nombre>
+            <segmento>C</segmento>
+            <inicio año="1991" />
+        </modelo>
+        <modelo fabricante="Volkswagen">
+            <nombre>Volskwagen Passat</nombre>
+            <segmento>D</segmento>
+            <inicio año="1973" />
+        </modelo>
+        <modelo fabricante="Peugeot">
+            <nombre>Peugeot 3008</nombre>
+            <segmento>C</segmento>
+            <inicio año="2007" />
+        </modelo>
+        <modelo fabricante="Volkswagen">
+            <nombre>Volkswagen Golf</nombre>
+            <segmento>C</segmento>
+            <inicio año="2007" />
+        </modelo>
+    </modelos>
+
+    <premios>
+        <premio nombre="coche del año Europa" año="2017" modelo="Peugeot 3008" />
+        <premio nombre="coche del año Europa" año="2016" modelo="Opel Astra" />
+        <premio nombre="coche del año Europa" año="2015" modelo="Volskwagen Passat" />
+        <premio nombre="coche del año Europa" año="2014" modelo="Peugeot 308" />
+        <premio nombre="coche del año Europa" año="2013" modelo="Volkswagen Golf" />
+    </premios>
+</coches>

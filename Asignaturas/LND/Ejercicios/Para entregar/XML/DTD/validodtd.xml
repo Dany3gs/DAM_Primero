@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE países SYSTEM "dtd.dtd">
+
+<países>
+    <país>
+        <nombre>Guinea ecatorial</nombre>    
+        <nombre>Guinea Española</nombre>
+        <continente>Afica</continente>
+        <número_hab>900000</número_hab>
+        <gobierno/>
+    </país>
+    <país>
+        <nombre>España</nombre>    
+        <continente>Europa</continente>
+        <número_hab>40 millones</número_hab>
+        <gobierno/>
+    </país>
+</países>

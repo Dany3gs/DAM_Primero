@@ -1,0 +1,48 @@
+220 Servidor ProFTPD (Debian) [::ffff:127.0.0.1]
+
+USER pepe
+
+331 Contraseña necesaria para pepe
+
+PASS mipass1234
+
+230 Usuario pepe conectado
+
+SYST
+
+215 UNIX Type: L8
+
+PORT 127,0,0,1,171,195
+
+200 Orden PORT ejecutada correctamente
+
+LIST
+
+150 Abriendo conexión de datos en modo ASCII para file list
+226 Transferencia completada
+
+TYPE I
+
+200 Tipo establecido en I
+
+PORT 127,0,0,1,211,153
+
+200 Orden PORT ejecutada correctamente
+
+RETR flag.zip
+
+150 Opening BINARY mode data connection for flag.zip (234 bytes)
+226 Transferencia completada
+
+PORT 127,0,0,1,142,151
+
+200 Orden PORT ejecutada correctamente
+
+RETR passwords.txt
+
+150 Opening BINARY mode data connection for passwords.txt (1810 bytes)
+226 Transferencia completada
+
+QUIT
+
+221 Hasta luego

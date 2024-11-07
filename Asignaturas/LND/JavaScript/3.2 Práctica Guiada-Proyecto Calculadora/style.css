@@ -1,0 +1,22 @@
+.numero{
+	width:60px;
+	height:60px;
+}
+
+.igual{
+	width:120px;
+	height:60px;
+}
+
+table{margin:auto;}
+
+.color_display{
+	height:30px;
+	background-color:#000;
+	border:medium #FFF;
+	font: "Space Age";
+	color:#0F0;
+	font-size:18px;
+	text-align:right;
+	padding:5px;
+}

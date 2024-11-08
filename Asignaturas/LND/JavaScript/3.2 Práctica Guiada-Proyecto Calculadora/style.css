@@ -1,22 +1,35 @@
 .numero{
-	width:60px;
-	height:60px;
+	height: 50px;
+	font-weight: bold;
+	border-radius: 10%;
+	width: 7vh;
 }
 
 .igual{
 	width:120px;
 	height:60px;
+	font-weight: bold;
+	border-radius: 10%;
 }
 
-table{margin:auto;}
+table{
+	margin:auto;
+	border: 1px solid black;
+	align-items: center;
+	background-color: lightgray;
+	border-radius: 10%;
+	padding: 15px;
+}
+
 
 .color_display{
 	height:30px;
 	background-color:#000;
-	border:medium #FFF;
 	font: "Space Age";
 	color:#0F0;
 	font-size:18px;
 	text-align:right;
 	padding:5px;
+	border: 1px solid black;
+	border-radius: 10px;
 }

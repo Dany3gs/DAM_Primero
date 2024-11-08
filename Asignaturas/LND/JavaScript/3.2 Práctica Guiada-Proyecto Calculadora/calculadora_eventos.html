@@ -4,25 +4,28 @@
 <meta charset="utf-8">
 <title>Documento sin título</title>
 <link rel="stylesheet" href="style.css">
-<script src="app.js"></script>
+<script src="app.js" defer></script>
 </head>
 
+  <!-- *** Se coge de base html el indicado en el video de 3.2 Práctica Guiada-Proyecto *** -->
+
   <body>
-    <table width="15%" border="1">
+    <table width="15%">
       <tr>
-        <td colspan="4" align="center">
+        <td colspan="4">
         <input name="display" type="text" class="color_display" id="display" size="25"></td>
       </tr>
       <tr>
-        <td width="26%"><input name="button" type="button" class="numero" id="button" value="+" ></td>
-        <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-"></td>
-        <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" ></td>
-        <td width="32%"><input name="button4" type="button" class="numero" id="button4" value="/" ></td>
+        <td><input name="button" type="button" class="numero" id="button" value="+" onclick="suma()" ></td>
+        <td><input name="button2" type="button" class="numero" id="button2" value="-" onclick="resta()"></td>
+        <td><input name="button3" type="button" class="numero" id="button3" value="*" onclick="multiplicacion()"></td>
+        <td><input name="button4" type="button" class="numero" id="button4" value="/" onclick="division()"></td>
       </tr>
       <tr>
         <td><input name="num7" type="button" class="numero" id="num7" value="7" onclick="display_numeros(7)" ></td>
         <td><input name="num8" type="button" class="numero" id="num8" value="8" onclick="display_numeros(8)" ></td>
         <td><input name="num9" type="button" class="numero" id="num9" value="9" onclick="display_numeros(9)" ></td>
+        <td><input name="button4" type="button" class="numero" id="button4" value="CE" onclick="reseteo()"></td>
         <td>&nbsp;</td>
       </tr>
       <tr>
@@ -39,12 +42,17 @@
       </tr>
       <tr>
         <td><input name="num0" type="button" class="numero" id="num0" value="0" onclick="display_numeros(0)" ></td>
-        <td><input name="button17" type="button" class="numero" id="button17" value=","></td>
-        <td colspan="2"><input name="button12" type="button" class="igual" id="button12" value="=" ></td>
+        <td><input name="button17" type="button" class="numero" id="button17" value="," onclick="display_decimal()"></td>
+        <td colspan="2"><input name="button12" type="button" class="igual" id="button12" value="=" onclick="resultado()"></td>
+        <td>&nbsp;</td>
       </tr>
     </table>
+
+    <!-- Se crea script para iniciar a 0 el display -->
+    <script>
+      document.getElementById("display").value = 0;
+    </script>
 
   </body>
 </html>
 
-<!-- videos del 25 al 28, 26 listo -->

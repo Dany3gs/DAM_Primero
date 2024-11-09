@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atributos dentro del DOM</title>
+
+</head>
+    <body>
+
+        <!-- El chrome me sale un cuarto cuadro que no aparece en firefox por ej, no se por que -->
+        <section id="contenedor">
+            <div class=""></div>
+            <div class=""></div>
+        </section>
+
+        <script>
+            var elemento = document.createElement("div");
+            var padre = document.getElementById("contenedor");
+            var referencia = document.getElementsByTagName("div")[0];
+            elemento.setAttribute("class", "azul");
+            
+            //document.body.appendChild(elemento);
+            padre.insertBefore(elemento, referencia);
+        </script>
+        
+        <br>
+        <a link rel="stylesheet" href="index.html">Volver al inicio</a>
+    </body>
+</html>

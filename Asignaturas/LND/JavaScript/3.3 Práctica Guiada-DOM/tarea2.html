@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crear nodos</title>
+</head>
+    <body>
+        <h1 id="titulo">Titulo de nuestro sitio web</h1>
+
+        <!-- vamos a añadir un h2 desde js -->
+        <div id="subtitulo"></div>
+
+        <p>1. Lorem ipsum <b>dolor</b>sit amet, consectetur adipiscing elit. Cras dui magna</p>
+        <p id="segundo">2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui magna</p>
+        <p>3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui magna</p>
+
+        <script>
+            var elementosP = document.getElementsByTagName("p");
+            var segundoParrafo = document.getElementById("segundo");
+
+            /**********************************************************/
+            //Pasos a seguir
+            
+            // 1.- Crear el elemento
+            var elemento = document.createElement("h2");
+            // 2.- Crear un nodo de texto
+            var contenido = document.createTextNode("Este es nuestro titular");
+            // 3.- Añadir el nodo de texto al elemento
+            elemento.appendChild(contenido);
+            // 4.- Agregar atributos al elemento
+            elemento.setAttribute("align", "center");
+            // 5.- Agregar el elemento al documento
+            document.getElementById("subtitulo").appendChild(elemento);
+            // Si queremos agregarlo en otro lugar del documento, se indicaría así
+            //document.body.appendChild(elemento);
+        </script>
+
+        <a link rel="stylesheet" href="index.html">Volver al inicio</a>
+    </body>
+</html>

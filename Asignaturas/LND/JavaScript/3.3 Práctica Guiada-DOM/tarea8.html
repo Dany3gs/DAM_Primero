@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos en JavaScript</title>
+
+    <!-- Ejecutar código cuando el usuario haga cierta acción en nuestro html -->
+            <!-- Quitar código de comentario para comprobar el evento -->
+</head>
+    <body>
+        <!-- <button id="boton">Boton</button> para último ejemplo -->
+         <a id="boton" href="https://www.google.es">Link a Google</a>
+        <input class="area-texto" type="text" id="input" size="40" placeholder="Quitar comentario en html para pruebas">
+
+        <script>
+            (function(){
+                /**********************************************************/
+                // Esto genera al clicar en el boton una alerta de saludo
+
+                    // var saludo = function() {
+                    // alert("saludo")
+                    // }
+                    // var boton = document.getElementById('boton');
+                    //     boton.addEventListener("click", saludo);
+                
+                /**********************************************************/
+
+
+                /**********************************************************/
+                // Esto genera al clicar en el boton un evento de texto en consola de focus!
+                    
+                    //  var saludo = function() {
+                    //     console.log('focus!')
+                    // }
+                    // var boton = document.getElementById('boton');
+                    //     boton.addEventListener("click", saludo);  
+                /**********************************************************/
+
+               
+                /**********************************************************/
+                // Ejecuta un evento cuando salimos del texto de nuestro input imprime en consola focus!
+                   
+                    // var saludo = function() {
+                    //     console.log('focus!')
+                    // }
+                    // var input = document.getElementById('input');
+                    // input.addEventListener("blur", saludo);
+                /**********************************************************/
+
+
+                /**********************************************************/
+                // Ejecuta un evento cuando hacemos un cambio en el texto de nuestro input  
+                    
+                    // var saludo = function() {
+                    //     console.log('focus!')
+                    // }
+                    // var input = document.getElementById('input');
+                    // input.addEventListener("change", saludo);
+                /**********************************************************/
+
+
+                /**********************************************************/
+                // Ejecuta un evento en consola cuando hacemos click en el boton  
+
+                    // var saludo = function() {
+                    //     console.log('saludo!')
+                    // }
+                    // var input = document.getElementById('input');
+                    // boton.addEventListener("click", saludo);
+                /**********************************************************/
+
+
+                /**********************************************************/
+                // Ejecuta dos eventos, saludo y saludo2 en consola cuando hacemos click en el boton
+                // Si añadimos la función remove elimina el evento de saludo imprimiendo solo saludo2 
+
+                    // var saludo = function() {
+                    //     console.log('saludo!')
+                    // }
+                    // var saludo2 = function() {
+                    //     console.log('saludo2')
+                    // }    
+                    // var input = document.getElementById('input');
+                    // boton.addEventListener("click", saludo);
+                    // boton.addEventListener("click", saludo2);
+                    // boton.removeEventListener("click", saludo);
+                 /**********************************************************/
+
+
+                 /**********************************************************/
+                // Para conocer el tipo de evento que se está ejecutando, pasamos un parametro a la funcion "e.type"
+
+                    // var saludo = function(e) {
+                    //     console.log('Este evento es de tipo: ' + e.type) //output Este evento es de tipo: click
+                    // }
+                    // var input = document.getElementById('input');
+                    // boton.addEventListener("click", saludo);
+                 /**********************************************************/
+
+
+                 /**********************************************************/
+                // Para conocer a que elemento se está ejecutando nuestro evento,
+                // pasamos un parametro a la funcion "e.target"
+
+                    // var saludo = function(e) {
+                    //     console.log('Este evento es de tipo: ' + e.target) //output Este evento es de tipo: [object HTMLButtonElement]
+                    // }
+                    // var input = document.getElementById('input');
+                    // boton.addEventListener("click", saludo);
+                /**********************************************************/
+
+
+                /**********************************************************/
+                // Para prevenir el comportamiento del evento, e imprimir en consola que hace,
+                // pasamos un parametro a la funcion "e.preventDefault()" esto sacará un mensaje en consola
+                // en vez de realizar la acción del boton
+
+                    // var saludo = function(e) {
+                    //     console.log('Comprobación de enlace') 
+                    //     e.preventDefault(); // output Comprobación de enlace y no redirige a la url
+                    // }
+                    // var input = document.getElementById('input');
+                    // boton.addEventListener("click", saludo);
+                /**********************************************************/
+
+            }())
+        </script>
+        
+        <br><br>
+        <a link rel="stylesheet" href="index.html">Volver al inicio</a>
+    </body>
+</html>

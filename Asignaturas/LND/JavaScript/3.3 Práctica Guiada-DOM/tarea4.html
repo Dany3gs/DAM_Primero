@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Acceder y modificar, eliminar el contenido de un elemento</title>
+</head>
+    <body>
+
+        <ol id="lista">
+            <li id="primero">Lorem ipsum <b>dolorsit</b> amet, consectetur adipiscing elit</li>
+            <li>Lorem ipsum dolorsit amet, consectetur adipiscing elit</li>
+       </ol>
+
+        <script>
+            var primerElemento = document.getElementById("primero");
+
+            /**********************************************************/
+            //Con .innerHTML nos permite modificar el texto como en el html Nuevo Texto FalconMaster
+            // primerElemento.innerHTML = "Nuevo Texto <i> FalconMaster</i>";
+
+            // Con textContent nos muestra tal cual el texto indicado "Nuevo Texto <i> FalconMaster</i>"
+            //primerElemento.textContent = "Nuevo Texto <i> FalconMaster</i>";
+            /**********************************************************/
+
+            // Para Reemplazar un elemento
+            var elemento = document.createElement("li");
+            var contenido = document.createTextNode("Nuevo Texto");
+
+            elemento.appendChild(contenido);
+
+            var padre = document.getElementsByTagName("li")[0].parentNode;
+            var referencia = document.getElementsByTagName("li")[0];
+            //padre.replaceChild(referencia); // Usamos función replaceChild
+
+            /**********************************************************/
+            // Para eliminar un elemento 
+            padre.removeChild(referencia); // Usamos función remuveChild
+
+        </script>
+        
+        <a link rel="stylesheet" href="index.html">Volver al inicio</a>
+    </body>
+</html>

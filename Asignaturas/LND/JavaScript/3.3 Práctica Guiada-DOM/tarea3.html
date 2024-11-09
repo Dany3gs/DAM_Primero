@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Posicionar elementos con DOM</title>
+</head>
+    <body>
+        
+       <ol id="lista">
+            <li>Lorem ipsum dolorsit amet, consectetur adipiscing elit</li>
+            <li>Lorem ipsum dolorsit amet, consectetur adipiscing elit</li>
+       </ol>
+
+        <script>
+            var elemento = document.createElement("li");
+            var contenido = document.createTextNode("Nuevo Texto");
+
+            elemento.appendChild(contenido);
+
+            // Con esto agregamos en el siguiente elemento de la lista
+            var padre = document.getElementsByTagName("li")[0].parentNode;
+            //var padre = document.getElementsById("lista"); es lo mismo que la de arriba
+            padre.appendChild(elemento);
+
+            // Si se quiere agregar en otro lugar, hay que crear una variable hijo 
+            // e indicar en que lugar lo queremos [1] como un array
+            var primerElemento = document.getElementsByTagName("li")[1];
+            padre.insertBefore(elemento, primerElemento);
+
+        </script>
+
+        <a link rel="stylesheet" href="index.html">Volver al inicio</a>
+    </body>
+</html>

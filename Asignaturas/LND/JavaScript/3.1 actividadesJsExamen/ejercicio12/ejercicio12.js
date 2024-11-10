@@ -28,7 +28,7 @@ let contadorU = 0;
 
 document.write("De la frase: " + frase3 + "<br>");
 document.write("Tiene " + contadorA + " vocales a" + "<br>");
-document.write("Tiene " + contadorE + " vocales e" + "<br>" );
+document.write("Tiene " + contadorE + " vocales e" + "<br>");
 document.write("Tiene " + contadorI + " vocales i" + "<br>");
 document.write("Tiene " + contadorO + " vocales o" + "<br>");
 document.write("Tiene " + contadorU + " vocales u" + "<br>");

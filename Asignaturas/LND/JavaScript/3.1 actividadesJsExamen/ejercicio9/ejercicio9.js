@@ -3,15 +3,15 @@
 let frase = prompt("Escriba una frase:");
 
 let letrasA = 0;
-
-    for (let i = 0; i < frase.length; i++) {
+                                                
+    for (let i = 0; i < frase.length; i++) {  
 
         let letra = frase[i];
-
-        if ("aáAÁ".includes(letra)) {
-         letrasA++;
+            
+        if (!"aáAÁ".includes(letra)) { 
+         letrasA++; 
         }
     };
 
 document.write("De la frase: " + frase + "<br>");
-document.write("La frase tiene " + letrasA + " veces la letra a");
+document.write("La letra \"a\" se repite " + letrasA + " veces");

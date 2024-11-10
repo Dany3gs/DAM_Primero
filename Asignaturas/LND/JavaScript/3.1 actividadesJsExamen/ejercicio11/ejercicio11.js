@@ -11,7 +11,7 @@ let consonantes = 0;
         let letra = frase2[i];
         
         if ("aáAÁeéEÉiíIÍoóOÓuúUÚ".includes(letra)) {
-         vocales1++;
+            vocales1++;
         }
         
         if (letra === " ") {
@@ -22,4 +22,4 @@ let consonantes = 0;
     };
 
 document.write("De la frase: " + frase2 + "<br>");
-document.write("La frase tiene " + vocales1 + " vocales y en total " + consonantes + " letras" );
+document.write("La frase tiene " + vocales1 + " vocales de un total de " + consonantes + " letras" );

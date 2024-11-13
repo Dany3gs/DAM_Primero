@@ -27,9 +27,9 @@ let divisoresComunes = [];
         }
     }
   
-document.write("El número " + numero1 + " tienen como divisores: " + divisores1.join(", ") + "<br>"); // con .join() separamos los elementos del array, idicando como queremos la separación ", "
-document.write("El número " + numero2 + " tienen como divisores: " + divisores2.join(", ") + "<br>"); 
-document.write("Los divisores en común son " + divisoresComunes.join(", ") + "<br>"); 
+document.write("El número " + numero1 + " tienen como divisores: " + divisores1.join() + "<br>"); // con .join() separamos los elementos del array, por defecto separa por ","
+document.write("El número " + numero2 + " tienen como divisores: " + divisores2.join() + "<br>"); 
+document.write("Los divisores en común son " + divisoresComunes.join() + "<br>"); 
 
 
 

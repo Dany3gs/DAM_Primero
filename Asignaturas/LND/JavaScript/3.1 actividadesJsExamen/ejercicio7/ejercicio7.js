@@ -7,9 +7,9 @@ let num_3 = parseFloat(prompt("Indique otro número:"));
 
 document.write("Los números son: " + num_1 + " - " + num_2 + " - "+ num_3 + "<br>");
 
-if (num_1 > num_2 && num_1 > num_3) {
+if (num_1 > num_2 || num_1 > num_3) {
     document.write(num_1 + " Es el número mayor");
-} else if (num_2 > num_1 && num_2 > num_3) {
+} else if (num_2 > num_1 || num_2 > num_3) {
     document.write(num_2 + " Es el número mayor");
 } else {
     document.write(num_3 + " Es el número mayor");

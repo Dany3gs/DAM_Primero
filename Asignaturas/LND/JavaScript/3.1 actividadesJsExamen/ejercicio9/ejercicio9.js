@@ -8,7 +8,7 @@ let letrasA = 0;
 
         let letra = frase[i];
             
-        if (!"aáAÁ".includes(letra)) { 
+        if ("aáAÁ".includes(letra)) { 
          letrasA++; 
         }
     };

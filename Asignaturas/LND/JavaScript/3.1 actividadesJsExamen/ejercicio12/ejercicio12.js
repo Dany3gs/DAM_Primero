@@ -1,7 +1,7 @@
 // Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una 
 // de las vocales
 
-let frase3 = prompt("Escriba una frase para ver cuantas veces se repiten las vocales");
+let frase = prompt("Escriba una frase para ver cuantas veces se repiten las vocales");
 
 let contadorA = 0;
 let contadorE = 0;
@@ -9,9 +9,9 @@ let contadorI = 0;
 let contadorO = 0;
 let contadorU = 0;
 
-    for (let i = 0; i < frase3.length; i++) {
+    for (let i = 0; i < frase.length; i++) {
 
-        let letra = frase3[i];
+        let letra = frase[i];
         
         if ("aáAÁ".includes(letra)) {
             contadorA++;
@@ -26,7 +26,7 @@ let contadorU = 0;
         }
     };
 
-document.write("De la frase: " + frase3 + "<br>");
+document.write("De la frase: " + frase + "<br>");
 document.write("Tiene " + contadorA + " vocales a" + "<br>");
 document.write("Tiene " + contadorE + " vocales e" + "<br>");
 document.write("Tiene " + contadorI + " vocales i" + "<br>");

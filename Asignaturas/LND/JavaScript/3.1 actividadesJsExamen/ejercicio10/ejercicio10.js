@@ -1,6 +1,6 @@
 //Escribe un programa que pida una frase y escriba las vocales que aparecen
 
-let frase1 = prompt("Escriba una frase para ver que vocales tiene:");
+let frase = prompt("Escriba una frase para ver que vocales tiene:");
 
 let vocales = 0;
 let contadorA = 0;
@@ -9,9 +9,9 @@ let contadorI = 0;
 let contadorO = 0;
 let contadorU = 0;
 
-    for (let i = 0; i < frase1.length; i++) {
+    for (let i = 0; i < frase.length; i++) {
 
-        let letra = frase1[i];
+        let letra = frase[i];
      
         if ("aáAÁ".includes(letra)) {
             contadorA++
@@ -30,7 +30,7 @@ let contadorU = 0;
         }
     };
 
-document.write("De la frase: " + frase1 + "<br>");
+document.write("De la frase: " + frase + "<br>");
 
     if (contadorA > 0) {
         document.write("La frase tiene la letra A <br>");

@@ -15,7 +15,7 @@ let divisoresComunes = [];
     }
 
 //obtenemos los divisores de numero2  
-   for (let i = 0; i <= numero2; i++) {
+   for (let i = 1; i <= numero2; i++) { 
         if (numero2 % i === 0) {
             divisores2.push(i);
         }

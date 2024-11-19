@@ -97,4 +97,4 @@ sumaValoresNegativos()
 /*3. a. indica los fallos del ejercicio: (debes ponerlo en un comentario al lado del error y
 poner cual es la opción correcta, de la palabra o expresión errónea). (2 puntos).*/
 
-// mirar opción con arrays
+// es corregir lo del pdf solo

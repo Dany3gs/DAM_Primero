@@ -10,9 +10,7 @@ let numeros = prompt("Escriba 10 números separados por comas");
 
 let arrayNumeros = numeros.split(",").map(Number); // con la función split() indicamos la separación y que cambie con map(Number)de String a Number
                                                    // con esto creamos el array a partir de la entrada de texto del usuario
-
-console.log(numeros); // sobra, solo para comprobar números insertados en consola
-
+                                                   
 let positivos = 0;
 let negativos = 0;
 let ceros = 0;

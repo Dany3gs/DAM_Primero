@@ -22,7 +22,7 @@ for (let i = 0; i < arrayNumeros.length; i++) {
     if (arrayNumeros[i] < 0 ) {
         negativos++;
     }
-    if (arrayNumeros[i] === 0 ) {
+    if (arrayNumeros[i] == 0 ) {
         ceros++;
     }
     if (arrayNumeros[i] > 0 ) {

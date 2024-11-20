@@ -50,3 +50,20 @@ document.write("De la frase: " + frase + "<br>");
     if (contadorA == 0 && contadorE == 0 && contadorI == 0 && contadorO == 0 && contadorU == 0) {
         document.write("La frase no tiene vocales");
     }
+
+
+// let vocales = "aeiou";
+// let cadena = prompt("Introduzca una frase:");
+
+// let resultado = "";
+// for (var i = 0; i < vocales.length; i++) {
+//     if (cadena.match(new RegExp(vocales[i], 'gi')) !== null) {
+//         resultado += vocales[i] + ", ";
+//     }
+// }
+// if (resultado.length > 0) {
+//     resultado = "La cadena '" + cadena + "' contiene las vocales " + resultado
+//     document.write(resultado.substring(0, resultado.length - 2));
+// } else {
+//     document.write("La cadena '" + cadena + "' No contiene vocales")
+// }

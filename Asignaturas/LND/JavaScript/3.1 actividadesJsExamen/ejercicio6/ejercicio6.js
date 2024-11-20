@@ -7,6 +7,9 @@ let num2 = parseFloat(prompt("Indique otro número:"));
 
 //let mayor = (num1 > num2) ? document.write(num1 + " Es mayor que " + num2) : document.write(num2 + " Es mayor que " + num1);
 
+// let mayor = Math.max(num1, num2);
+// document.write("El número mayor es : " + mayor);
+
 if (num1 > num2) {
     document.write(num1 + " Es mayor que " + num2);
 } else {

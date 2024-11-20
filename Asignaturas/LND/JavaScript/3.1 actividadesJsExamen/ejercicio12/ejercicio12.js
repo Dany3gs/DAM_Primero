@@ -32,3 +32,10 @@ document.write("Tiene " + contadorE + " vocales e" + "<br>");
 document.write("Tiene " + contadorI + " vocales i" + "<br>");
 document.write("Tiene " + contadorO + " vocales o" + "<br>");
 document.write("Tiene " + contadorU + " vocales u" + "<br>");
+
+// let frase = prompt("Escriba una frase para ver cuántas veces se repiten las vocales");
+
+// let vocales = { a: 0, e: 0, i: 0, o: 0, u: 0 }; // objeto
+
+// [...frase.toLowerCase()].forEach(l => l in vocales && vocales[l]++);
+// document.write(Object.entries(vocales).map(([v, c]) => `Tiene ${c} vocales ${v}<br>`).join("") + `De la frase: ${frase}<br>`);

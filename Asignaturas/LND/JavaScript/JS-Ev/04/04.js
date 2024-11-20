@@ -6,56 +6,68 @@ pantalla).
 
 Lo que quiero hacer:
 
-1 - crear un array de 10 elementos de varios tipos de datos
-2 - hay que contar con una función las vocales y consonantes, 
-3 - hay que contar los números positivos, negativos y 0, 
-4 - imprimir en web los resultado de todos
+1 - Crear un array vacio para rellenar con 10 elementos de varios tipos de datos, letras y números enteros.
+2 - Crear un for para rellenar el array con un prompt.
+3 - Comprobar si el prompt está introduciendo letras o números con un condicional.
+    Se comprueba si 'datos' no es "no un número" (!isNaN(datos)), es decir, si es un número.
+    Y si no es una cadena vacia eliminando espacios en blanco con datos.trim() !== ''.
+4 - Creamos variables para los datos que queremos contar.
+5 - Creamos una función que hace la suma de los valores buscados.
+6 - Con un forof recorremos los elementod del array, y vamos comprobando con typeof el tipo de dato
+    si cada elemento es un número o string, sumando las variables contadoras en cada caso.
+
+    En el caso de las letras, dentro de cada condicional, anidamos para separar las vocales 
+    de las consonantes, en caso de las vocales usamos la función includes()'aeiouAEIOU'.includes(elementos), 
+    si en este condicional no encuentra vocales, buscamos una letra del alfabeto con una expresión regular
+     /^[a-zA-Z]$/, al haber descartado con el if anterior las vocales, con la función .test(elementos) 
+    prueba si incluye una letra del alfabeto.
 */
 
-let frase = prompt("Escribe lo que quieras:")
+ var array = [];
 
-let array = frase.split(""); // usamos la función split para crear el array
+for (let i = 0; i < 10; i++) {
+    var datos = prompt('Ingrese 10 elementos entre números y letras:');
+    if (!isNaN(datos) && datos.trim() !== '') {
+        array[i] = Number(datos); // Convertir a número
+    } else {
+        array[i] = datos; // Mantener como cadena
+    }
+}
 
-// function valoresArray () {
+document.write('El array "' + array + '" tiene lo siguiente <br>');
 
-// let vocales = 0;
-// let consonantes = 0;
-// let numerosPositivos = 0
-// let numerosNegativos = 0
-// let numerosCeros = 0
+let vocales = 0, consonantes = 0, positivos = 0, negativos = 0, ceros = 0;
 
-//     for (let i = 0; i < array.length; i++) {
-//         let letra = array[i];
+function evaluarArray () {
+    for (let elementos of array) {
 
-//         let tieneLetras = array.some(item => typeof item === "string");
-//             if ("aeiou".includes(tieneLetras)) {
-//                         vocales++;
-//                     } else if (tieneLetras) {
-//                         consonantes++;
-//                     }
+    if (typeof elementos === 'number') {
+        // Si el elemento es un número
+        if (elementos > 0) {
+            positivos++;
+        } else if (elementos < 0) {
+            negativos++;
+        } else {
+            ceros++;
+        }
+    } else if (typeof elementos === 'string') {
+        // Si el elemento es una letra primero buscamos las vocales
+        if ('aeiouAEIOU'.includes(elementos)) {
+            vocales++;
+        // Si no encuentra vocales en el if anterior, busca consonantes en todo el abecedario    
+        } else if (/^[a-zA-Z]$/.test(elementos)) {
+            consonantes++;
+        }
+    }
+}
+// Mostrar los resultados en formato lista en html
+document.write('<ul>');
+if (positivos > 0) document.write(`<li>Números positivos: ${positivos}</li>`);
+if (negativos > 0) document.write(`<li>Números negativos: ${negativos}</li>`);
+if (ceros > 0) document.write(`<li>Ceros: ${ceros}</li>`);
+if (vocales > 0) document.write(`<li>Vocales: ${vocales}</li>`);
+if (consonantes > 0) document.write(`<li>Consonantes: ${consonantes}</li>`);
+document.write('</ul>');
+}
 
-//         let tieneNumeros = array.some(item => typeof item === "number");
-    
-//         if (tieneNumeros > 0) {
-//             numerosPositivos++;
-//         } else if (tieneNumeros < 0) {
-//             numerosNegativos++;
-//         } else if (tieneNumeros == 0) {
-//             numerosCeros++;
-//         }
-        
-//     };
-
-//     document.write("La frase " + frase + "<br>");
-//     document.write("La frase tiene " + vocales + " vocales <br>");
-//     document.write("La frase tiene " + consonantes + " consonantes <br>");
-
-//     document.write("La frase " + frase + "<br>");
-//     document.write("Tiene " + numerosPositivos + " números positivos <br>");
-//     document.write("Tiene " + numerosNegativos + " números positivos <br>");
-//     document.write("Tiene " + numerosCeros + " números positivos <br>");
-
-
-//}
-
-//valoresArray();
+evaluarArray();

@@ -1,3 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+<<<<<<< HEAD
+=======
+/.DS_Store
+>>>>>>> 9b1721d (Ds a gitignore)

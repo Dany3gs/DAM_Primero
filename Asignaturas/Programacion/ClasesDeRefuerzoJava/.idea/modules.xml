@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClaseDeRefuerzo/ClaseDeRefuerzo.iml" filepath="$PROJECT_DIR$/ClaseDeRefuerzo/ClaseDeRefuerzo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClaseDeRefuerzo2/ClaseDeRefuerzo2.iml" filepath="$PROJECT_DIR$/ClaseDeRefuerzo2/ClaseDeRefuerzo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ClasesDeRefuerzoJava.iml" filepath="$PROJECT_DIR$/.idea/ClasesDeRefuerzoJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refuerzo230123/refuerzo230123.iml" filepath="$PROJECT_DIR$/refuerzo230123/refuerzo230123.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refuerzo2301232/refuerzo2301232.iml" filepath="$PROJECT_DIR$/refuerzo2301232/refuerzo2301232.iml" />
+    </modules>
+  </component>
+</project>
